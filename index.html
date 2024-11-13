@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+   div, input, button{
+    margin-bottom: 20px;
+   }
+
+  </style>
+</head>
+
+<body>
+  <div class="content_main">
+      <form name="myForm" >
+        <input type="number" name="numberOne" id="myForm1">
+        <input type="number" name="numberTwo" id="myForm2">
+      </form>  
+
+      <button onclick="addition()">
+        Сложение
+      </button>
+      <button onclick="substraction()">
+        Вычитание
+      </button>
+      <button onclick="multiplication()">
+        Умножение
+      </button>
+      <button onclick="division()">
+        Деление
+      </button>
+
+      <form>
+        <div class="calc_window" id="result"></div>
+      </form> 
+  </div>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

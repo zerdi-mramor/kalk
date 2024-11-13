@@ -1,0 +1,11 @@
+.calc_window{
+  width: 80%;
+  height: 50px;
+  border: #8a7b7b 1px solid;
+  color: black;
+  background-color: #E8E8E8;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 40px;
+  margin: auto;
+}
